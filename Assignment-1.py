@@ -24,7 +24,7 @@ def padding(message):
     return message
 
 
-# Removing the added spaces
+# Removing the added white spaces
 def depadding(message):
     while message[-1] == ' ':
         message = message[:-1]
